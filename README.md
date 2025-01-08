@@ -24,30 +24,38 @@ Program ini dirancang menggunakan konsep modular dan OOP, dengan pembagian sebag
 - **File:** `process/process.py`
 - **Deskripsi:**
   Class `Process` menangani logika utama, seperti:
-  - Menampilkan daftar film.
-  - Memvalidasi input user (pilihan film, jumlah tiket, pembayaran).
-  - Mengurangi jumlah kursi setelah tiket dipesan.
-  - Menghitung total harga dan uang kembalian.
+  1. Menampilkan daftar film.
+     
+  2. Memvalidasi input user (pilihan film, jumlah tiket, pembayaran).
+     
+  3. Mengurangi jumlah kursi setelah tiket dipesan.
+  
+  4. Menghitung total harga dan uang kembalian.
 
 ## 4. Program Utama
 - **File:** `main.py`
 - **Deskripsi:**
-  Mengatur menu utama yang memungkinkan pengguna:
-  - Menampilkan daftar film.
-  - Memesan tiket.
-  - Keluar dari program.
+  Mengatur menu utama yang memungkinkan pengguna: Menampilkan daftar film, memesan tiket dan keluar dari program.
 
 ### Alur Program
 1. Pengguna memilih menu utama:
-   - **1:** Menampilkan daftar film dalam tabel.
-   - **2:** Memesan tiket.
-     - Input nomor film dan jumlah tiket.
-     - Validasi jumlah kursi tersedia.
-     - Input jumlah uang yang dibayar.
-     - Hitung kembalian jika pembayaran mencukupi.
-   - **0:** Keluar dari program.
-2. Data film diperbarui setelah setiap pemesanan tiket.
-3. Program berjalan hingga pengguna memilih keluar.
+   
+   •	**1:** Menampilkan daftar film dalam tabel.
+   
+   •	**2:** Memesan tiket.
+   
+   •	Input nomor film dan jumlah tiket.
+   
+   •	Validasi jumlah kursi tersedia.
+   
+   •	Input jumlah uang yang dibayar.
+   
+   •	Hitung kembalian jika pembayaran mencukupi.
+   
+     **0:** Keluar dari program.
+   
+3. Data film diperbarui setelah setiap pemesanan tiket.
+4. Program berjalan hingga pengguna memilih keluar.
 
 ## Hasil Output Kode Program
 
