@@ -40,9 +40,9 @@ Program ini dirancang menggunakan konsep modular dan OOP, dengan pembagian sebag
 ### Alur Program
 1. Pengguna memilih menu utama:
    
-   •	**1:** Menampilkan daftar film dalam tabel.
+   **1:** Menampilkan daftar film dalam tabel.
    
-   •	**2:** Memesan tiket.
+   **2:** Memesan tiket.
    
    •	Input nomor film dan jumlah tiket.
    
@@ -52,7 +52,7 @@ Program ini dirancang menggunakan konsep modular dan OOP, dengan pembagian sebag
    
    •	Hitung kembalian jika pembayaran mencukupi.
    
-     **0:** Keluar dari program.
+   **0:** Keluar dari program.
    
 3. Data film diperbarui setelah setiap pemesanan tiket.
 4. Program berjalan hingga pengguna memilih keluar.
